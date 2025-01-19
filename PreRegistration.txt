@@ -1,0 +1,7 @@
+pre-registration - plans for a study before completing it. It has to be public but it can have an embargo period, preregistration must be written, when you go from planning to action (before data collection). Must have reasoning for deviations too aka transparent deviation. A timestamped preregistration is necessary, and it does not require to be reviewed from the initial stages. 
+Use preregistration modified template from canvas. 
+-Brief background & Hypotheses
+Methods: research design and procedures - replication recipe 
+measurements 
+exclusion rules for data 
+decision tree if unsure or multiple options are likely to emerge 
