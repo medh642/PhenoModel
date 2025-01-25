@@ -23,27 +23,38 @@ Make sure you have Python 3.10.0 installed on your system
 
 In R:  
 
-Rscript -e "install.packages('devtools', repos = 'https://cloud.r-project.org')"  
+- Rscript -e "install.packages('devtools', repos = 'https://cloud.r-project.org')"  
 
-Rscript -e "devtools::install_github('bluegreen-labs/phenor', upgrade = 'never')"  
+- Rscript -e "devtools::install_github('bluegreen-labs/phenor', upgrade = 'never')"  
 
-Rscript -e "devtools::install_github('ropensci/rppo', upgrade = 'never')"  
+- Rscript -e "devtools::install_github('ropensci/rppo', upgrade = 'never')"  
 
-Rscript -e "install.packages(c('daymetr', 'MODISTools', 'phenocamr', 'rnpn'), repos = 'https://cloud.r-project.org')"
+- Rscript -e "install.packages(c('daymetr', 'MODISTools', 'phenocamr', 'rnpn'), repos = 'https://cloud.r-project.org')"
 
 In Python:  
 
-pip install Springtime  
+- pip install Springtime  
 
-pip install rnpn  
+- pip install rnpn    
+## Key Features
+
+- Integration of **Daymet** climate data and **NPN** phenology observations.
+- Automated data preprocessing and cleaning scripts.
+- Statistical modeling of phenological events based on climate variables.
+
 
 ### Acknowledgments
 Daymet and NPN for providing the climate and phenological data.
  
 
 ### License
-This project is licensed under the MIT License – see the LICENSE file for details.
+This project is licensed under the MIT License – see the LICENSE file for details.  
+
+### Future Recommendations  
+
+
+
 
 ### References  
-Khodadadzadeh, M., Kalverla, P., & Zurita-Milla, R. (2024). Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses. IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, 5333–5336.[DOI:10.1109/Phenology 2024]( https://doi.org/10.1109/IGARSS53475.2024.10641356)
+1. Khodadadzadeh, M., Kalverla, P., & Zurita-Milla, R. (2024). Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses. IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, 5333–5336.[DOI:10.1109/Phenology 2024]( https://doi.org/10.1109/IGARSS53475.2024.10641356)
 
