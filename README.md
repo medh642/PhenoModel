@@ -10,9 +10,10 @@ The objective of this project is to understand and predict the phenological even
 *National Phenology Network (NPN):* Provides observational data for plant and animal phenology, which is used for understanding the timing of phenological events.
 
 ### Repository Structure
-The repository contains the following directories and files:
+The repository contains the following directories and files:  
+
 scripts/: Python Jupyter Notebook for data preprocessing, cleaning, and analysis [here](https://github.com/medh642/PhenoModel/blob/main/MLmodel.ipynb) </br>
-Field descriptions for final table [here](https://github.com/medh642/PhenoModel/blob/main/ColumnsDescription.pdf)
+Field descriptions for final table [here](https://github.com/medh642/PhenoModel/blob/main/ColumnsDescription.pdf)  </br>
 Dataset recipe [here](https://github.com/medh642/PhenoModel/blob/main/recip.yaml)
 
 ### Installation
