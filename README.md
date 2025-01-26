@@ -39,16 +39,16 @@ In Python:
 
 ## Additional installation requirements for Windows users
 Replace the "utils.py" within the springtime package to [here](https://github.com/medh642/PhenoModel/blob/main/utils.py) and adjust the path within the run_r_script function
-r_binary_path = r" "  # Update to your R path
-r_library_path = r" " # Locate to win-library
-Run on local R env
-To get binary path:
-r_home <- R.home()
-r_bin_path <- file.path(r_home, "bin", "R")
-print(r_bin_path)
+r_binary_path = r" "  # Update to your R path__
+r_library_path = r" " # Locate to win-library__
+Run on local R env__
+To get binary path:__
+r_home <- R.home()__
+r_bin_path <- file.path(r_home, "bin", "R")__
+print(r_bin_path)__
 
-To get the library path: 
-system.file(package="springtime")
+To get the library path: __
+system.file(package="springtime")__
 
 
 ## Key Features
