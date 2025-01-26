@@ -217,36 +217,7 @@ class TimeoutError(Exception):
     """Timeout Exception raised when a function exceeds the timeout."""
     pass
 
-# Updated run_r_script function
-
-# def run_r_script(script: str, timeout: int = 30, max_tries: int = 3):
-#     """Run R script with retries and timeout logic.
-
-#     Args:
-#         script: The R script to run.
-#         timeout: Maximum number of seconds the function may take.
-#         max_tries: Maximum number of times to execute the function.
-#     """
-#     logger.debug(f"Executing R code:\n{script}")
-
-#     @retry(timeout=timeout, max_tries=max_tries)
-#     def execute():
-#         result = subprocess.run(
-#             ["R", "--vanilla", "--no-echo"],
-#             input=script.encode(),
-#             stderr=subprocess.PIPE,
-#             stdout=subprocess.PIPE,
-#         )
-#         result.check_returncode()  # Raises CalledProcessError if return code != 0
-#         return result
-
-#     try:
-#         return execute()
-#     except subprocess.CalledProcessError as e:
-#         logger.error(f"R script execution failed: {e.stderr}")
-#         raise
-
-##################### RSCRIPT MODIFIED TO USER REQUIREMENTS
+##################### RSCRIPT MODIFIED TO USER REQUIREMENTS -Update Path to R environment #####################
 import subprocess
 import os
 import logging
@@ -260,7 +231,6 @@ import logging
 from retrying import retry
 
 
-######### 19-01-2025 17:46###########
 def run_r_script(script: str, timeout: int = 30, max_tries: int = 3):
     """Run R script with retries and timeout logic.
 
@@ -272,8 +242,8 @@ def run_r_script(script: str, timeout: int = 30, max_tries: int = 3):
     logger.debug(f"Executing R code:\n{script}")
 
     # Ensure that the R binary and library paths are correct
-    r_binary_path = r"C:/Program Files/R/R-4.4.2/bin/R"  # Update to your R path
-    r_library_path = r"C:/Users/medha/AppData/Local/R/win-library/4.4"
+    r_binary_path = r" "  # Update to your R path
+    r_library_path = r" " # Locate to win-library
 
     # Ensure the R binary and R library path are correctly set
     os.environ["PATH"] = os.path.dirname(r_binary_path) + ";" + os.environ["PATH"]
