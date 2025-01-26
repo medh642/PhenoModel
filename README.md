@@ -38,7 +38,7 @@ In Python:
 - pip install rnpn
 
 ## Additional installation requirements for Windows users
-Replace the "utils.py" within the springtime package to [here](https://github.com/medh642/PhenoModel/blob/main/utils.py) and adjust the path within the run_r_script function
+Replace the "utils.py" within the springtime package to [here](https://github.com/medh642/PhenoModel/blob/main/utils.py) and adjust the path within the run_r_script function</br>
 r_binary_path = r" "  </br>
 r_library_path = r" " </br>
 
