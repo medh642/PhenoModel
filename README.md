@@ -35,7 +35,11 @@ In Python:
 
 - pip install Springtime  
 
-- pip install rnpn    
+- pip install rnpn
+
+## Additional installation requirements for Windows users
+Replace the "utils.py" within the springtime package to [here](https://github.com/medh642/PhenoModel/blob/main/utils.py) and adjust the path within the run_r_script function
+
 ## Key Features
 
 - Integration of **Daymet** climate data and **NPN** phenology observations.
