@@ -1,6 +1,6 @@
 # PhenoModel
-## A Comparative Analysis of Process-Based and Machine Learning Phenological Models for Red Maple(Acer rubrum), North United States
-We are attempting to use the springtime package to perform machine learning and process-based modeling to understand climate change by observing changes in phenology. We use springtime data to focus on the phenological study of Red Maple (Acer rubrum). This is a replication of the paper ,Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses <sup>[1]</sup>  The states that are focused on are New York (NY), Illinois(IL), and Minnesota (MN).The project also uses documentation from [springtime](https://springtime.readthedocs.io/en/latest/installation/)
+## A Comparative Analysis of Machine Learning Phenological Models for predicting leaf emergence in Red Maple(Acer rubrum), North United States
+We are attempting to use the springtime package to perform machine learning modeling to understand climate change by observing changes in phenology. We use springtime data to focus on the phenological study of Red Maple (Acer rubrum). This is a replication of the paper, Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses <sup>[1]</sup>  The states focused on are New York (NY), Illinois(IL), and Minnesota (MN). The project uses documentation from [springtime](https://springtime.readthedocs.io/en/latest/installation/)
 
 ### Objective 
 The objective of this project is to understand and predict the phenological events of Red Maple trees in relation to environmental conditions.
@@ -23,7 +23,7 @@ To get started with this project, clone the repository and install the necessary
 
 Make sure you have Python 3.10.0 installed on your system
 
-In R:  
+In R session:  
 
 - Rscript -e "install.packages('devtools', repos = 'https://cloud.r-project.org')"  
 
@@ -37,7 +37,6 @@ In Python:
 
 - pip install Springtime  
 
-- pip install rnpn
 
 ## Additional installation requirements for Windows users
 Replace the "utils.py" within the springtime package to [here](https://github.com/medh642/PhenoModel/blob/main/utils.py) and adjust the path within the run_r_script function</br>
