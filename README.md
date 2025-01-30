@@ -1,4 +1,6 @@
-![Python](https://img.shields.io/badge/Python-3.10.16-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.10.16-blue?logo=python) ![repo status](https://www.repostatus.org/badges/latest/active.svg)
+![CRAN](https://www.r-pkg.org/badges/version/rnpn)
+
 # PhenoModel
 ## A Comparative Analysis of Machine Learning Phenological Models for predicting leaf emergence in Red Maple(Acer rubrum), North United States
 We are attempting to use the springtime package to perform machine learning modeling to understand climate change by observing changes in phenology. We use springtime data to focus on the phenological study of Red Maple (Acer rubrum). This is a replication of the paper, Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses <sup>[1]</sup>  The states focused on are New York (NY), Illinois(IL), and Minnesota (MN). The project uses documentation from [springtime](https://springtime.readthedocs.io/en/latest/installation/)
