@@ -19,8 +19,8 @@ Python Jupyter Notebook for data preprocessing, cleaning, and analysis [here](ht
 Field descriptions for final table [here](https://github.com/medh642/PhenoModel/blob/main/ColumnsDescription.pdf)  </br>
 Dataset recipe [here](https://github.com/medh642/PhenoModel/blob/main/recip.yaml) </br>
 RDatasetInstallation [here](https://github.com/medh642/PhenoModel/blob/main/RDatasetInstallation.R) </br>
-Dataset downloaded directly from USA-NPN in CSV format [here](https://github.com/medh642/PhenoModel/blob/main/trial.csv) </br>
-Dataset downloaded within springtime [here](https://github.com/medh642/PhenoModel/blob/main/OutputFile.csv)
+Dataset downloaded within Springtime for Red_Maple(All States)  [here](https://github.com/medh642/PhenoModel/blob/main/trial.csv) </br>
+Dataset downloaded within springtime for Red_Maple both Phenology and Daymet data(New York,Illinois and Minnesota) [here](https://github.com/medh642/PhenoModel/blob/main/OutputFile.csv)
 
 
 ### Installation
