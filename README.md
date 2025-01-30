@@ -37,7 +37,7 @@ In R session:
 
 - Rscript -e "install.packages(c('daymetr', 'MODISTools', 'phenocamr', 'rnpn'), repos = 'https://cloud.r-project.org')"
 
-Or directly run the following commands on RStudio 
+Or directly run the following lines on RStudio 
 https://github.com/medh642/PhenoModel/blob/5899a25926a87aecc44762c814ec53ca3cd4ab00/RDatasetInstallation.R#L1-L4
 
 In Python:  
