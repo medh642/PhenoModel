@@ -70,10 +70,10 @@ system.file(package="springtime") </br>
 - Statistical modeling of phenological events based on climate variables.
 
 ### Resources 
-[RNPN documentation](https://usa-npn.github.io/rnpn/reference/index.html)
-[Springtime documentation](https://springtime.readthedocs.io/en/latest/)
-[Pycaret](https://pycaret.readthedocs.io/en/stable/api/regression.html)
-[PyPhenology](https://pyphenology.readthedocs.io/en/master/)
+[RNPN documentation](https://usa-npn.github.io/rnpn/reference/index.html)</br>
+[Springtime documentation](https://springtime.readthedocs.io/en/latest/)</br>
+[Pycaret](https://pycaret.readthedocs.io/en/stable/api/regression.html)</br>
+[PyPhenology](https://pyphenology.readthedocs.io/en/master/)</br>
 
 ### Acknowledgments
 Daymet and NPN for providing the climate and phenological data.
