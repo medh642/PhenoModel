@@ -1,5 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.10.16-blue?logo=python) ![repo status](https://www.repostatus.org/badges/latest/active.svg)
-![CRAN](https://www.r-pkg.org/badges/version/rnpn)
+![R](https://img.shields.io/badge/R-4.4.2-blue?logo=R)
 
 # PhenoModel
 ## A Comparative Analysis of Machine Learning Phenological Models for predicting leaf emergence in Red Maple(Acer rubrum), North United States
