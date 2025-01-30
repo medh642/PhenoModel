@@ -18,6 +18,10 @@ The repository contains the following directories and files:
 scripts/: Python Jupyter Notebook for data preprocessing, cleaning, and analysis [here](https://github.com/medh642/PhenoModel/blob/main/MLmodel.ipynb) </br>
 Field descriptions for final table [here](https://github.com/medh642/PhenoModel/blob/main/ColumnsDescription.pdf)  </br>
 Dataset recipe [here](https://github.com/medh642/PhenoModel/blob/main/recip.yaml)
+RDatasetInstallation [here](https://github.com/medh642/PhenoModel/blob/main/RDatasetInstallation.R)
+Dataset downloaded directly from USA-NPN in CSV format [here](https://github.com/medh642/PhenoModel/blob/main/trial.csv)
+Dataset downloaded within springtime [here](https://github.com/medh642/PhenoModel/blob/main/OutputFile.csv)
+
 
 ### Installation
 To get started with this project, clone the repository and install the necessary dependencies.  
