@@ -9,7 +9,7 @@ We are attempting to use the springtime package to perform machine learning mode
 The objective of this project is to understand and predict the phenological events of Red Maple trees in relation to environmental conditions.
 
 ### Data Sources
-*Daymet:* A gridded dataset providing daily weather data for temperature, precipitation, and other climate variables.
+*Daymet:* A gridded dataset providing daily weather data for temperature, precipitation, and other climate variables.</br>
 *National Phenology Network (NPN):* Provides observational data for plant and animal phenology, which is used for understanding the timing of phenological events.
 
 ### Repository Structure
