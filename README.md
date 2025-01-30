@@ -69,10 +69,6 @@ Daymet and NPN for providing the climate and phenological data.
 ### License
 This project is licensed under the Apache License, Version 2.0 – see the LICENSE file for details.  
 
-### Future Recommendations  
-
-
-
 
 ### References  
 1. Khodadadzadeh, M., Kalverla, P., & Zurita-Milla, R. (2024). Harmonizing Machine Learning Based Phenological Modeling: A Unified Workflow for Comparative Analyses. IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium, 5333–5336.[DOI:10.1109/Phenology 2024]( https://doi.org/10.1109/IGARSS53475.2024.10641356)
