@@ -15,7 +15,7 @@ The objective of this project is to understand and predict the phenological even
 ### Repository Structure
 The repository contains the following directories and files:  
 
-scripts/: Python Jupyter Notebook for data preprocessing, cleaning, and analysis [here](https://github.com/medh642/PhenoModel/blob/main/MLmodel.ipynb) </br>
+Python Jupyter Notebook for data preprocessing, cleaning, and analysis [here](https://github.com/medh642/PhenoModel/blob/main/MLmodel.ipynb) </br>
 Field descriptions for final table [here](https://github.com/medh642/PhenoModel/blob/main/ColumnsDescription.pdf)  </br>
 Dataset recipe [here](https://github.com/medh642/PhenoModel/blob/main/recip.yaml) </br>
 RDatasetInstallation [here](https://github.com/medh642/PhenoModel/blob/main/RDatasetInstallation.R) </br>
