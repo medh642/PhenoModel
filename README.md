@@ -24,7 +24,8 @@ To get started with this project, clone the repository and install the necessary
 
 *Prerequisites*  
 
-Make sure you have Python 3.10.0 installed on your system
+Python version - 3.10
+R version (only for installing datasets within springtime) - 3.5.0 or higher
 
 In R session:  
 
