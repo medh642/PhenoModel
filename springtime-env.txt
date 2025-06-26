@@ -1,0 +1,31 @@
+name: springtime-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core languages
+  - python=3.10.16
+  - r-base=4.2.2
+
+  # R-Python interface
+  - rpy2=3.5.11
+
+  # Data manipulation and analysis
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+
+  # Machine learning automation
+  - pycaret
+
+  # Jupyter environment
+  - jupyter
+  - ipykernel
+
+  # Additional utilities
+  - pip
+
+  # Pip-installed packages
+  - pip:
+      - springtime==0.3.0  # or the latest compatible release
